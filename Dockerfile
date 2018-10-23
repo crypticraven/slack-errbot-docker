@@ -1,5 +1,7 @@
 FROM python:3.6.4-slim
 
+MAINTAINER Operations Center Support
+
 ENV ERRBOT_DIR=/errbot
 
 RUN mkdir -p $ERRBOT_DIR
