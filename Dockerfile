@@ -1,7 +1,5 @@
 FROM python:3.6.4-slim
 
-MAINTAINER Samuel Dion-Girardeau <samuel.diongirardeau@gmail.com>
-
 ENV ERRBOT_DIR=/errbot
 
 RUN mkdir -p $ERRBOT_DIR
