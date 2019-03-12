@@ -25,4 +25,7 @@ RUN pip install \
       --disable-pip-version-check \
       -r requirements.txt
 
+RUN pip3 install -U \
+    'markdown==2.6.11'
+
 CMD ["errbot"]
