@@ -10,8 +10,7 @@ WORKDIR $ERRBOT_DIR
 
 VOLUME ["/errbot/data", "/errbot/plugins"]
 
-RUN apt-get update \
- && apt-get install -y \
+RUN apt-get install -y \
       git \
       libssl-dev \
       libffi-dev \
