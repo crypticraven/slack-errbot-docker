@@ -13,10 +13,10 @@ VOLUME ["/errbot/data", "/errbot/plugins"]
 RUN apt-get update \
  && apt-get install -y \
 #      git-all \
-#      libssl-dev \
-#      libffi-dev \
-#      python3.6 \
-# && rm -rf /var/lib/apt/lists/*
+      libssl-dev \
+      libffi-dev \
+      python3.6 \
+ && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt ./requirements.txt
 
