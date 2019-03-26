@@ -16,7 +16,7 @@ RUN apt-get update \
       libssl-dev \
       libffi-dev \
       python3.6 \
- && rm -rf /var/lib/apt/lists/*
+ #&& rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt ./requirements.txt
 
