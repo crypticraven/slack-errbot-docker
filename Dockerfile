@@ -11,11 +11,11 @@ WORKDIR $ERRBOT_DIR
 VOLUME ["/errbot/data", "/errbot/plugins"]
 
 RUN apt-get install -y \
-      git \
+      git-all \
       libssl-dev \
       libffi-dev \
       python3.6 \
- #&& rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt ./requirements.txt
 
