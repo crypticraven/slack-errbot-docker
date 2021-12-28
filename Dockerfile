@@ -1,4 +1,4 @@
-FROM python:3.6.4-slim
+FROM python:3.8-slim
 
 MAINTAINER Operations Center Support
 
